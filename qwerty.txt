@@ -1,0 +1,29 @@
+.a1{
+            background-color: black;
+       }
+       .a2{
+        margin-right: 750px;
+        padding: auto;
+       }
+       input[type=search]{
+        width:70%;
+       }
+       #a3{
+        margin: auto;
+        padding: auto;
+        color: yellow;
+       }
+------------------------------------------------------
+ <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid a1">
+          <a class="navbar-brand" id="a3">Amazon.in</a>
+          <form class="d-flex a2">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div>
+            <p style="color:Red; font-size: small;">Hello,Sign In</p>
+          </div>
+        </div>
+      </nav>
+   
